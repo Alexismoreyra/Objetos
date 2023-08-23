@@ -1,0 +1,24 @@
+class Persona():
+    def __init__(self, nombre, edad, direccion):
+        self.nombre= nombre
+        self.edad= edad
+        self.direccion= direccion
+    #def imprimir(self):
+        #print('nombre: ', self.nombre, self.edad, self.direccion)
+    def __str__(self):
+        return f'''
+        nombre= {self.nombre}
+        edad= {self.edad}
+        direccion= {self.direccion}'''
+
+persona1= Persona('jose', 20, 'los patos')
+persona2= Persona('mara', 28, 'caceros')
+persona3= Persona('kaka', 43, 'la plata')
+persona4= Persona('dominic', 32, 'san jose')
+persona5= Persona('nino', 16, 'villa nashe')
+#persona1.imprimir()
+#persona2.imprimir()
+#persona3.imprimir()
+#persona4.imprimir()
+#persona5.imprimir()
+print(persona1, persona2, persona3, persona4, persona5)
