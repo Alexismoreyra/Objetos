@@ -1,0 +1,11 @@
+class Empleado():
+    def __init__(self):
+        self.nombre= str(input('nombre: '))
+        self.salario= float(input('salario: '))
+    def resultado(self):
+        if self.salario > 50000:
+            print('paga impuesto')
+        else:
+            print('no paga impuesto')
+empleado= Empleado()
+empleado.resultado()
