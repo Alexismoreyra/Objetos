@@ -29,4 +29,3 @@ class Ingreso():
         for lista in listaUsuario:
             if dni==lista.dni:
                 listaUsuario.remove(object)
-
