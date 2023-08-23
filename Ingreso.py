@@ -22,6 +22,8 @@ class Ingreso():
         dni=input('dni: ')
         for lista in listaUsuario:
             if dni==lista.dni:
+                for mensaje in Usuario.historial:
+                    print(f'''hostorial.(mensaje)''')
                 lista.imprimir()
 
     def eliminar (self)
