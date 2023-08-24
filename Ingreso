@@ -44,6 +44,6 @@ class Ingreso():
                 deposito=int(input(''))
                 retiro=int(input(''))
                 Usuario.editarSaldo(deposito,retiro)
-                mod=Usuario.modificaciones(deposito;retiro)
+                mod=Usuario.modificaciones(deposito,retiro)
                 Usuario.historial.append(mod)
 
